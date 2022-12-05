@@ -13,9 +13,11 @@ public class Main {
 		
 			Scanner all = new Scanner(System.in); //pongo scanner
 			System.out.println("Introduzca un número");
-
+		//pido un numero y num1 será ese
 		num1 = all.nextInt();
+		//nueva clase
 		Numeros resultado = new Numeros();
+		//Muestro resultados
 		System.out.println("El número es primo" + resultado.esPrimo(num1));
 		System.out.println("El número es capicua" + resultado.esCapicua(num1));
 	}
