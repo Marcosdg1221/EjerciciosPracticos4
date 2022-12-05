@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
 		
 	public static void main(String[] args) {
+		//Creo dos booleanos y un int para las funciones.
 		boolean esPrimo;
 		boolean esCapicua;
 		int num1;
